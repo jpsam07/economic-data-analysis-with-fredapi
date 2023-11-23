@@ -3,8 +3,8 @@
 This economic data analysis project makes use of Python as the programming language for analysis, and the [FRED API](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/) for pulling out USA economic data about unemployment rates and participation rates per US state.
 
 
-> [!NOTE] Note:
-> I recommend making going to the [Kaggle Notebook URL](https://www.kaggle.com/code/joaquinsamson/economic-data-analysis-with-fredapi) provided in the About section of this repo to easily run the Python code.
+> **Note:**
+> I recommend going to the [Kaggle Notebook URL](https://www.kaggle.com/code/joaquinsamson/economic-data-analysis-with-fredapi) provided in the About section of this repo to easily run the Python code.
 
 
 
