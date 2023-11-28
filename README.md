@@ -4,8 +4,7 @@ This economic data analysis project makes use of Python as the programming langu
 
 
 > **Note:**
-> I recommend going to the [Kaggle Notebook URL](https://www.kaggle.com/code/joaquinsamson/economic-data-analysis-with-fredapi) provided in the About section of this repo to easily run the Python code.
-
+> I recommend going to the [NBViewer URL](https://nbviewer.org/github/jpsam07/economic-data-analysis-with-fredapi/blob/main/economic_data_analysis_with_fredapi.ipynb) provided in the About section of this repository for a better and clearer view of the Jupyter Notebook.
 
 
 ## References
