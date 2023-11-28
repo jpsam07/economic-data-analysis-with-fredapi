@@ -161,3 +161,6 @@ cython_debug/
 
 # Obsidian
 .obsidian
+
+# API key
+creds.py
