@@ -1,6 +1,6 @@
 # Economic Data Analysis with FRED API
 
-![Unemployment Rate Stock Image](unemployment_rate_stock_image.jpg)
+![Unemployment Rate Stock Image](./images/unemployment_rate_stock_image.jpg)
 
 This economic data analysis project makes use of Python for data analysis, and the [FRED API](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/) for pulling out USA economic data about unemployment rates and participation rates per US state.
 
