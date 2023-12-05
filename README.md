@@ -65,10 +65,17 @@ The data cleaning methods included:
 
 ## Visualization of Participation Rates Per US State
 - Used `plotly` to enable interactive line chart visualization of Participation rates per US State
+
+![Participation Rate by US State](./images/participation_rate_by_us_state_plotly_line_chart.gif)
+
 - Generated a bar chart that sorted participation rates per US state from highest to lowest
 
-## Visualization of Unemployment Rate vs. Participation Rate per US State
+![Participation Rate by US State from Highest to Lowest](./images/participation_rate_by_us_state_bar_chart.png)
+
+## Visualization of Unemployment Rate vs. Participation Rate Per US State
 - Plotted unemployment rate and participation rate in one big chart per US state.
+
+![Unemployment Rate vs. Participation Rate](./images/unemployment_vs_participation_rate_by_us_state.png)
 
 ## Conclusion
 
