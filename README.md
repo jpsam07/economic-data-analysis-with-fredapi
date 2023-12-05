@@ -1,5 +1,18 @@
 # Economic Data Analysis with FRED API
 
+- [Request for FRED API Key](#request-fore-fred-api-key)
+- [[#Data Collection|Data Collection]]
+- [[#Environment Setup and Data Loading|Environment Setup and Data Loading]]
+- [[#Data Cleaning|Data Cleaning]]
+- [[#Focused on May 2020 Economic Data|Focused on May 2020 Economic Data]]
+- [[#Visualization of Unemployment Rates Per US State|Visualization of Unemployment Rates Per US State]]
+- [[#Visualization of Participation Rates Per US State|Visualization of Participation Rates Per US State]]
+- [[#Visualization of Unemployment Rate vs. Participation Rate Per US State|Visualization of Unemployment Rate vs. Participation Rate Per US State]]
+- [[#Conclusion|Conclusion]]
+- [[#Next Steps|Next Steps]]
+- [[#References|References]]
+
+
 ![Unemployment Rate Stock Image](./images/unemployment_rate_stock_image.jpg)
 
 This economic data analysis project makes use of Python for data analysis, and the [FRED API](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/) for pulling out USA economic data about unemployment rates and participation rates per US state.
