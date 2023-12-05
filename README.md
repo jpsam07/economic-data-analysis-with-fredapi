@@ -88,6 +88,8 @@ The data cleaning methods included:
 
 ## Visualization of Unemployment Rate vs. Participation Rate Per US State
 - Plotted unemployment rate and participation rate in one big chart per US state.
+	- `blue` for unemployment rate
+	- `red` for participation rate
 
 ![Unemployment Rate vs. Participation Rate](./images/unemployment_vs_participation_rate_by_us_state.png)
 
