@@ -30,15 +30,66 @@ Using the FRED API key:
 
 ## Environment Setup and Data Loading
 
-The economic data
+The economic data was loaded into Jupyter Lab using Python. Relevant libraries for data analysis were also imported:
 
-## Environment Setup and Data Loading
+- `pandas`: for Data Management and Data Manipulation
+- `numpy`: for numerical and scientific computing
+- `matplotlib`, `seaborn`, `plotly`: for data visualization
+- `fredapi` : The API used to pull USA economic data
+- `.py file with API key`: stored the API key requested from [FRED](https://fred.stlouisfed.org/docs/api/fred/)
 
+## Data Cleaning
 
+The data cleaning methods included:
+- Filtering economic data with monthly frequency
+- Specifically querying seasonally adjusted economic data whose unit is in percent
+- Concatenating economic data 
+- Dropping columns that are not about the unemployment and participation rates for every US state.
+- Dropping missing values
+- Fixed column names for better readability of the US states
 
----
+## Focused on May 2020 Economic Data
+
+- Pulled May 2020 unemployment rate data when it started skyrocketing
+- Pulled May 2020 participation rate data when it started plummeting
+
+## Visualization of Unemployment Rates Per US State
+
+- Used `plotly` to enable interactive line chart visualization of Unemployment rates per US State
+
+![Unemployment Rate per US State](./images/unemployment_rate_by_us_state_plotly_interactive_line_chart.gif)
+
+- Generated a bar chart that sorted unemployment rates per US state from highest to lowest
+
+![Unemployment Rate per US State from Highest to Lowest](./images/unemployment_rate_by_us_state_bar_chart.png)
+
+## Visualization of Participation Rates Per US State
+- Used `plotly` to enable interactive line chart visualization of Participation rates per US State
+- Generated a bar chart that sorted participation rates per US state from highest to lowest
+
+## Visualization of Unemployment Rate vs. Participation Rate per US State
+- Plotted unemployment rate and participation rate in one big chart per US state.
+
+## Conclusion
+
+Based on the final visualization, we can conclude a number of things:  
+
+- It is safe to conclude that **as unemployment rate skyrocketed during May 2020, participation rate plummeted**.
+
+	- This is around the time when the COVID-19 Outbreak started booming, not just affecting healthcare, but every industry and household worldwide.
+
+- Over time, **participation rate increased as unemployment rate decreased.**
+
+	- Some US States (e.g., Tennessee Montana, Maine, Idaho, Delaware, South Dakota) **seem to not follow the general trend**
+
+## Next Steps
+
+There might be some other economic factors affecting the labor and participation rates of these states during May 2020. Should the analysis of this economic data continues, this is something worth investigating.
 
 ## References
 
 - Rob Mulla. (2022, April 26). _Economic Data Analysis Project with Python Pandas - Data scraping, cleaning and exploration!_ [Video]. YouTube. Retrieved November 22, 2023, from https://youtu.be/R67XuYc9NQ4?si=p0G707HjUCH6r1W-
 - _St. Louis Fed Web Services: FRED® API_. (2009). Retrieved November 22, 2023, https://fred.stlouisfed.org/docs/api/fred/
+
+---
+
