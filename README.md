@@ -4,7 +4,7 @@
 
 This economic data analysis project makes use of Python for data analysis, and the [FRED API](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/) for pulling out USA economic data about unemployment rates and participation rates per US state.
 
-**Note:** I recommend going to the [NBViewer URL](https://nbviewer.org/github/jpsam07/economic-data-analysis-with-fredapi/blob/9eb0c473052cc7bc4d91593b8d1fedc5be763537/economic_data_analysis_with_fredapi.ipynb) provided in the About section of this repository for a better and clearer view of the Jupyter Notebook.
+**Note:** I recommend going to the [NBViewer URL](https://nbviewer.org/github/jpsam07/economic-data-analysis-with-fredapi/blob/76207ea857cb733df9eed150b1e91282cdf4cb03/economic_data_analysis_with_fredapi.ipynb) provided in the About section of this repository for a better and clearer view of the Jupyter Notebook.
 
 
 ## Table of Contents
