@@ -1,11 +1,11 @@
 # Economic Data Analysis with FRED API
 
-![Unemployment Rate Stock Image](./images/unemployment_rate_stock_image.jpg)
+![Unemployment Rate Stock Image](./images/README_banner.jpg)
 
 This economic data analysis project makes use of Python for data analysis, and the [FRED API](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/) for pulling out USA economic data about unemployment rates and participation rates per US state.
 
-**Note:** I recommend going to the [NBViewer URL](https://nbviewer.org/github/jpsam07/economic-data-analysis-with-fredapi/blob/76207ea857cb733df9eed150b1e91282cdf4cb03/economic_data_analysis_with_fredapi.ipynb) provided in the About section of this repository for a better and clearer view of the Jupyter Notebook.
-
+> [!NOTE]
+> I recommend going to the [NBViewer URL](https://nbviewer.org/github/jpsam07/economic-data-analysis-with-fredapi/blob/76207ea857cb733df9eed150b1e91282cdf4cb03/notebook.ipynb) provided in the About section of this repository for a richer view of the analysis in a Jupyter Notebook
 
 ## Table of Contents
 
@@ -20,6 +20,7 @@ This economic data analysis project makes use of Python for data analysis, and t
 - [Conclusion](#conclusion)
 - [Next Steps](#next-steps)
 - [References](#references)
+
 ## Request for FRED API Key
 
 To get your own FRED API key:
@@ -113,6 +114,3 @@ There might be some other economic factors affecting the labor and participation
 
 - Rob Mulla. (2022, April 26). _Economic Data Analysis Project with Python Pandas - Data scraping, cleaning and exploration!_ [Video]. YouTube. Retrieved November 22, 2023, from https://youtu.be/R67XuYc9NQ4?si=p0G707HjUCH6r1W-
 - _St. Louis Fed Web Services: FRED® API_. (2009). Retrieved November 22, 2023, https://fred.stlouisfed.org/docs/api/fred/
-
----
-
